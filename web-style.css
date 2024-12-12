@@ -3363,17 +3363,23 @@ margin: 0px 10% 0px;
 .container {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    margin: 0px 0px 0px;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+.cont {
+    margin: 0px 10% 0px;
 }
 
 .category {
     display: flex;
     flex-direction: column; /* Always stack text and images vertically */
-    margin-bottom: 40px;
+    width: 100%;
 }
 
 .category-text {
-    padding-right: 20px;
 }
 
 .category-images {
